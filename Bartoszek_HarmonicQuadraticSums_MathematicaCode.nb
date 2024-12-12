@@ -301,7 +301,7 @@ Clear[n];FullSimplify[Limit[LemH24rhs[n],{n->Infinity}]]
 (* result: but polygamma function instead of Zeta 
 (Pi^4)/90+(Pi^2)/6-3/2-Zeta[3] *)
 N[(Pi^4)/90-Zeta[3]+(Pi^2)/6-3/2]
-(* result: 0.0252004 
+(* result: 0.0252004 *)
 
 
 (* Lemma H.25 *)
